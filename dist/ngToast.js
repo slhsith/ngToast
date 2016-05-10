@@ -3,6 +3,11 @@
  * Copyright 2016 Tamer Aydin (http://tamerayd.in)
  * Licensed under MIT (http://tameraydin.mit-license.org/)
  */
+ 
+/* commonjs package manager support (eg componentjs) */
+if (typeof module !== "undefined" && typeof exports !== "undefined" && module.exports === exports){
+  module.exports = 'ng-toast';
+}
 
 (function(window, angular, undefined) {
   'use strict';
